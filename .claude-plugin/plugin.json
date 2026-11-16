@@ -1,0 +1,28 @@
+{
+  "name": "pbjconnect",
+  "displayName": "PBJConnect",
+  "version": "0.2.1",
+  "description": "Compare staffing and census across your PBJConnect facilities, review quarter readiness, and explain saved staffing forecasts.",
+  "author": {
+    "name": "PBJConnect",
+    "url": "https://pbjconnect.com"
+  },
+  "homepage": "https://pbjconnect.com/plugin",
+  "repository": "https://github.com/plocascio/pbjconnect-claude",
+  "license": "SEE LICENSE IN LICENSE",
+  "documentationUrl": "https://pbjconnect.com/plugin",
+  "supportUrl": "https://pbjconnect.com/#contact",
+  "privacyPolicyUrl": "https://pbjconnect.com/plugin/privacy",
+  "termsOfServiceUrl": "https://pbjconnect.com/plugin/terms",
+  "keywords": [
+    "healthcare",
+    "skilled-nursing",
+    "staffing",
+    "census",
+    "pbj"
+  ],
+  "metadata": {
+    "releaseStatus": "directory-candidate",
+    "claudeAuthenticationVerified": true
+  }
+}
