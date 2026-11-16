@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "pbjconnect": {
+      "type": "http",
+      "url": "https://pbjconnect.com/api/integrations/mcp"
+    }
+  }
+}
