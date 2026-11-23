@@ -8,6 +8,7 @@ Use deterministic PBJConnect results as evidence, then explain them in plain lan
 1. Call `connection_status`. If not connected, use the setup workflow. Choose an organization from the result; ask only if the requested organization is unclear and more than one is available.
 2. Call `list_facilities` and follow every returned page when resolving names or when a complete inventory is needed. Use returned IDs; never guess them.
 3. Call `analyze_portfolio` with the organization and optional facility IDs/date range. Omit facility IDs for organization-wide analysis. Omit dates when the user wants all available history. Do not force one facility or quarter.
+   Use `data_coverage` when the user asks what is loaded or when source availability is uncertain. Use `staffing_analysis` for daily staffing and PBJ job/pay-type breakdowns within a work quarter; its daily evidence and classifications come from the same source used on the site. A missing or incomplete employee-hour source cannot reconstruct a job mix from daily totals.
 4. If the server reports a coverage bound or size limit, divide the request into facility groups or date windows and explain the resulting coverage. Do not claim a partial response covers the entire portfolio.
 5. Compare matched reporting periods and counting bases. Keep CMS publication dates separate from the staffing work period. Keep public history, operational imports, and demo carry-forward values distinguishable.
 
