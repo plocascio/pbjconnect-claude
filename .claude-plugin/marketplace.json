@@ -3,7 +3,7 @@
   "owner": {
     "name": "PBJConnect"
   },
-  "description": "PBJConnect staffing, census, quarter review and saved forecast workflows for Claude.",
+  "description": "PBJConnect staffing, census, quality, inspections, ownership and reporting workflows for Claude.",
   "plugins": [
     {
       "name": "pbjconnect",
