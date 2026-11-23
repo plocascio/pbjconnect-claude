@@ -1,8 +1,8 @@
 {
   "name": "pbjconnect",
   "displayName": "PBJConnect",
-  "version": "0.2.1",
-  "description": "Compare staffing and census across your PBJConnect facilities, review quarter readiness, and explain saved staffing forecasts.",
+  "version": "0.3.0",
+  "description": "Analyze staffing, census, quality measures, inspections and ownership across your PBJConnect facilities; review reporting gaps and saved staffing forecasts.",
   "author": {
     "name": "PBJConnect",
     "url": "https://pbjconnect.com"
@@ -19,7 +19,10 @@
     "skilled-nursing",
     "staffing",
     "census",
-    "pbj"
+    "pbj",
+    "quality-measures",
+    "inspections",
+    "ownership"
   ],
   "metadata": {
     "releaseStatus": "directory-candidate",
